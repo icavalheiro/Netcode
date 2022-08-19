@@ -1,5 +1,6 @@
 ﻿namespace ISC.Netcode.Client;
-public class Class1
+
+public class Client
 {
 
 }

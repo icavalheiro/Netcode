@@ -1,5 +1,6 @@
 ﻿namespace ISC.Netcode.Server;
-public class Class1
+
+public class Server
 {
 
 }
