@@ -1,6 +1,6 @@
 ﻿namespace ISC.Netcode.Client;
 
-public class Client
+public class UdpClient
 {
 
 }
