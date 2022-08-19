@@ -116,4 +116,31 @@ public class Validator_Schema
             Validator.ValidateServerPortConfiguration(-1, null, 65535);
         });
     }
+
+    [Fact]
+    public void ValidateServerPortConfiguration_ThrowsInvalidMultiple2()
+    {
+        Assert.Throws<Exception>(() =>
+        {
+            Validator.ValidateServerPortConfiguration(-1, 4000, 65535);
+        });
+    }
+
+    [Fact]
+    public void ValidateServerPortConfiguration_ThrowsInvalidMultiple3()
+    {
+        Assert.Throws<Exception>(() =>
+        {
+            Validator.ValidateServerPortConfiguration(-1, -4000, 65535);
+        });
+    }
+
+    [Fact]
+    public void ValidateServerPortConfiguration_ThrowsInvalidMultiple4()
+    {
+        Assert.Throws<Exception>(() =>
+        {
+            Validator.ValidateServerPortConfiguration(-99999, 99999, 65535);
+        });
+    }
 }
