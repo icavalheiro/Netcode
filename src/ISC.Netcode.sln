@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISC.Netcode", "ISC.Netcode\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISC.Netcode.UnitTests", "ISC.Netcode.UnitTests\ISC.Netcode.UnitTests.csproj", "{86295D76-89A4-46E0-9F33-C9C786687E1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISC.Netcode.Client", "ISC.Netcode.Client\ISC.Netcode.Client.csproj", "{1430A9C1-9703-4730-A28D-64750AD69E8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISC.Netcode.Server", "ISC.Netcode.Server\ISC.Netcode.Server.csproj", "{533AF5A2-DD67-4D3B-BF9D-CCDA361D8E54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{86295D76-89A4-46E0-9F33-C9C786687E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86295D76-89A4-46E0-9F33-C9C786687E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86295D76-89A4-46E0-9F33-C9C786687E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1430A9C1-9703-4730-A28D-64750AD69E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1430A9C1-9703-4730-A28D-64750AD69E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1430A9C1-9703-4730-A28D-64750AD69E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1430A9C1-9703-4730-A28D-64750AD69E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{533AF5A2-DD67-4D3B-BF9D-CCDA361D8E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{533AF5A2-DD67-4D3B-BF9D-CCDA361D8E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{533AF5A2-DD67-4D3B-BF9D-CCDA361D8E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{533AF5A2-DD67-4D3B-BF9D-CCDA361D8E54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

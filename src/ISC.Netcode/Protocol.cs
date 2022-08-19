@@ -1,6 +1,6 @@
 ﻿namespace ISC.Netcode;
 
-public class Class1
+public static class Protocol
 {
 
 }

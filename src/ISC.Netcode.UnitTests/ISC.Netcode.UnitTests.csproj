@@ -22,6 +22,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ISC.Netcode\ISC.Netcode.csproj" />
+    <ProjectReference Include="..\ISC.Netcode.Client\ISC.Netcode.Client.csproj" />
+    <ProjectReference Include="..\ISC.Netcode.Server\ISC.Netcode.Server.csproj" />
   </ItemGroup>
 
 </Project>
