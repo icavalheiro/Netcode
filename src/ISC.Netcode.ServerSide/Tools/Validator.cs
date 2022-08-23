@@ -1,4 +1,4 @@
-namespace ISC.Netcode.Server.Tools;
+namespace ISC.Netcode.ServerSide.Tools;
 
 public static class Validator
 {

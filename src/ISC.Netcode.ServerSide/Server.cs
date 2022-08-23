@@ -1,11 +1,11 @@
-﻿using ISC.Netcode.Server.Tools;
+﻿using ISC.Netcode.ServerSide.Tools;
 
-namespace ISC.Netcode.Server;
+namespace ISC.Netcode.ServerSide;
 
 /// <summary>
 /// Class that handles everything related to the server and clients
 /// </summary>
-public class MainServer : IDisposable
+public class Server : IDisposable
 {
     private readonly int? _tcpPort;
     private readonly int? _udpPort;
@@ -16,7 +16,7 @@ public class MainServer : IDisposable
     /// If you don't want a protocol to be used, just send null as the port
     /// for that protocol.
     /// </summary>
-    public MainServer(int? udpPort = null, int? tcpPort = null, int? websocketPort = null)
+    public Server(int? udpPort = null, int? tcpPort = null, int? websocketPort = null)
     {
         Validator.ValidateServerPortConfiguration(udpPort, tcpPort, websocketPort);
 

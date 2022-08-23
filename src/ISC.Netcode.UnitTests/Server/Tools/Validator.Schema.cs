@@ -1,8 +1,8 @@
 using System;
-using ISC.Netcode.Server.Tools;
+using ISC.Netcode.ServerSide.Tools;
 using Xunit;
 
-namespace ISC.Netcode.UnitTests.Server.Tools;
+namespace ISC.Netcode.UnitTests.ServerSide.Tools;
 
 public class Validator_Schema
 {

@@ -1,14 +1,28 @@
 using Xunit;
-using ISC.Netcode.Server;
-
-namespace ISC.Netcode.UnitTests.Server;
+using System;
+using ISC.Netcode.ServerSide;
+using System.Threading;
+namespace ISC.Netcode.UnitTests.ServerSide;
 
 public class Server_Schema
 {
     [Fact]
     public void CanDispose()
     {
-        MainServer server = new(3000, null, null);
+        Server server = new(3000, null, null);
         server.Dispose();
+    }
+
+    [Fact]
+    public void CanStartWithCt()
+    {
+        Server server = new(websocketPort: 1000);
+
+        CancellationTokenSource ctSource = new();
+        var ct = ctSource.Token;
+
+        server.Start(ct);
+
+        ctSource.Cancel();
     }
 }
